@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Biến, kiểu dữ liệu và toán tử 1</title>
+</head>
+<body>
+
+<script>
+    let diemVatLy = parseFloat(prompt("Nhập điểm Vật lý"))
+    let diemHoaHoc = parseFloat(prompt("Nhập điểm Hóa Học"))
+    let diemSinhHoc = parseFloat(prompt("Nhập điểm Sinh Học"))
+         diemTong = diemVatLy + diemHoaHoc + diemSinhHoc
+         diemTrungBinh = diemTong / 3
+    document.write("Điểm trung bình 3 môn là : " + parseFloat(diemTrungBinh).toFixed(2))
+    document.write("<br/>")
+    document.write("Điểm tổng 3 môn là : " + parseFloat(diemTong).toFixed(2))
+
+    </script>
+
+</body>
+</html>
